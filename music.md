@@ -7,7 +7,13 @@ permalink: /music/
 <h2 style="border-bottom: 2px solid #e8e8e8;padding: 5px;">My favorite songs
 <svg height="32px" style="float: right;padding: 10px;" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g transform="translate(384 96)"><path d="M-374-90v19.037c-1.063-0.639-2.457-1.037-4-1.037c-3.313,0-6,1.789-6,4s2.689,4,6,4c3.313,0,6-1.789,6-4v-18.545l18-4.91   v14.492c-1.063-0.639-2.457-1.037-4-1.037c-3.313,0-6,1.789-6,4s2.689,4,6,4c3.313,0,6-1.789,6-4v-22L-374-90z"/></g></svg>
  <small> - <a href="https://open.spotify.com/user/1124620659">My Spotify</a> / <a href="https://www.last.fm/user/skorotkiewicz">Last.fm<sup>1</sup></a></small>
- <small style="float: right;"><a href="/lastfm/"> >latest music activity</a></small>
+
+ <small style="float: right;">
+	<a href="https://lastfm.vercel.app/skorotkiewicz?fullname=Sebastian%20Korotkiewicz&avatar=https://lastfm.freetls.fastly.net/i/u/avatar170s/399e4fb8a0fdd2f0eb6d44caaef149db.png"> 
+		>latest music activity
+	</a>
+ </small>
+
  </h2>
 
 <div class="posts">
