@@ -9,7 +9,7 @@ layout: default
 	{{ content }}
 
 	<div class="posts">
-		{% for post in paginator.posts %}
+		{% for post in posts %}
 		<div class="postRow">
 			<div id="postDate"  class="postCell">{{ post.date | date: "%Y-%m-%d" }}</div>
 			<div id="postTitle" class="postCell"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
@@ -17,6 +17,15 @@ layout: default
 		{% endfor %}
 	</div>
 
+	{% comment %}
+	<div class="posts">
+		{% for post in paginator.posts %}
+		<div class="postRow">
+			<div id="postDate"  class="postCell">{{ post.date | date: "%Y-%m-%d" }}</div>
+			<div id="postTitle" class="postCell"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
+		</div>
+		{% endfor %}
+	</div>
 	<nav role="navigation">
 			<ul class="cd-pagination no-space">
 					{% if paginator.total_pages > 1 %}
@@ -35,5 +44,6 @@ layout: default
 					{% endif %}
 			</ul>
 	</nav>
+	{% endcomment %}
 
 </div>
