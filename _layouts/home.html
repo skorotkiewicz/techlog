@@ -9,12 +9,12 @@ layout: default
 	{{ content }}
 
 	<div class="posts">
-		{% for post in posts %}
+		{%- for post in site.posts -%}
 		<div class="postRow">
 			<div id="postDate"  class="postCell">{{ post.date | date: "%Y-%m-%d" }}</div>
 			<div id="postTitle" class="postCell"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
 		</div>
-		{% endfor %}
+		{%- endfor -%}
 	</div>
 
 	{% comment %}
