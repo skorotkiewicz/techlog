@@ -1,0 +1,74 @@
+# Welcome to Jekyll!
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+author: Sebastian Korotkiewicz
+title: "Tech{{log}}"
+description: > # this means to ignore newlines until "baseurl:"
+  A simple log of my adventures in the technology world
+baseurl: "/techlog" # the subpath of your site, e.g. /blog
+production_url: "https://skorotkiewicz.github.io/"
+url_sitemap: "https://skorotkiewicz.github.io/techlog" # the base hostname e.g. https://example.com for sitemap
+safe: false
+permalink: /:title/
+
+jekyll-minifier:
+  compress_css: false
+
+social:
+  name: Sebastian Korotkiewicz
+  email: skorotkiewicz@gmail.com
+  twitter_username: skorotkiewicz
+  github_username: skorotkiewicz
+  links:
+    - https://twitter.com/skorotkiewicz
+    - https://www.facebook.com/skorotkiewicz
+    - https://github.com/skorotkiewicz
+    - https://keybase.io/modinfo
+
+kucos:
+  comments: true
+  server: "https://kucos.vercel.app"
+
+pagination:
+  enabled: true
+  per_page: 30
+  permalink: "/page/:num.html"
+  title: ":title - page :num"
+  limit: 0
+  sort_field: "date"
+  sort_reverse: true
+
+#gzip:
+#  extensions:
+#    - '.html'
+#    - '.css'
+#    - '.js'
+#    - '.svg'
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    default_lang: txt
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-twitter-plugin
+  - jekyll-seo-tag
+  - jekyll-paginate-v2
+  - rouge
+  - jekyll-minifier
+#  - jekyll-gzip

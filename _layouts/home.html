@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<style>nav[role="navigation"]{text-align:center}.cd-pagination{width:90%;max-width:768px;margin:2em auto 4em;text-align:center}.cd-pagination li.button{display:inline-block}.cd-pagination a,.cd-pagination span{display:inline-block;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;padding:.6em .8em;font-size:1.3rem}.cd-pagination a{border:1px solid #e6e6e6;border-radius:.25em}.no-touch .cd-pagination a:hover{background-color:#f2f2f2}.cd-pagination a:active{-webkit-transform:scale(.9);-moz-transform:scale(.9);-ms-transform:scale(.9);-o-transform:scale(.9);transform:scale(.9)}</style>
+
+<div class="home">
+
+	{{ content }}
+
+	<div class="posts">
+		{% for post in paginator.posts %}
+		<div class="postRow">
+			<div id="postDate"  class="postCell">{{ post.date | date: "%Y-%m-%d" }}</div>
+			<div id="postTitle" class="postCell"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
+		</div>
+		{% endfor %}
+	</div>
+
+	<nav role="navigation">
+			<ul class="cd-pagination no-space">
+					{% if paginator.total_pages > 1 %}
+					<ul>
+					  {% if paginator.next_page %}
+					  <li class="button">
+						<a href="{{ paginator.next_page_path | prepend: site.baseurl }}">&laquo; Older Posts</a>
+					  </li>
+					  {% endif %}
+					  {% if paginator.previous_page %}
+					  <li class="button">
+						  <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer Posts &raquo;</a>
+					  </li>
+					  {% endif %}
+					</ul>
+					{% endif %}
+			</ul>
+	</nav>
+
+</div>

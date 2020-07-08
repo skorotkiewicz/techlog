@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <main class="page-content" aria-label="Content" style="padding-bottom: 5px;">
+      <div class="wrapper wrapper_post">
+        {{ content }}
+      </div>
+    </main>
+
+    {% include footer.html %}
+
+  {% include footer_scripts.html %}
+  </body>
+</html>
