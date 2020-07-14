@@ -4,14 +4,21 @@ title: "Contact"
 permalink: /contact/
 ---
 
-<h3 style="border-bottom: 2px solid #e8e8e8;padding: 5px;">Sebastian Korotkiewicz<br /><small>CEO &amp; Founder ITunix.eu</small></h3>
+<h3 style="border-bottom: 2px solid #e8e8e8;padding: 5px;">Sebastian Korotkiewicz<br /><small>System Administrator, self-employed</small></h3>
 
 <strong>Direct contact</strong>
 
   <div class="row">
-    <div class="col-sm-1">Mail/XMPP</div>
+    <div class="col-sm-1">Mail</div>
     <div class="col-sm-10">
         skorotkiewicz@gmail.com
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-1">XMPP</div>
+    <div class="col-sm-10">
+        skorotkiewicz@snopyta.org
     </div>
   </div>
 
@@ -22,26 +29,26 @@ permalink: /contact/
     </div>
   </div>
 
-  <div class="row">
+  <!-- <div class="row">
     <div class="col-sm-1">Skype</div>
     <div class="col-sm-10">
         skorotkiewicz
     </div>
-  </div>
+  </div> -->
 
   <div class="row">
-    <div class="col-sm-1">Irc</div>
+    <div class="col-sm-1">IRC</div>
     <div class="col-sm-10">
         l__q @ freenode
     </div>
   </div>
 
-  <div class="row">
+  <!-- <div class="row">
     <div class="col-sm-1">Bitmessage</div>
     <div class="col-sm-10">
         BM-2D8rUS9FQVWZNKVfU4o2Ydoj6CiVDkJVZN
     </div>
-  </div>
+  </div> -->
 
   <div class="row">
     <div class="col-sm-1">Keybase.io</div>
@@ -53,20 +60,6 @@ permalink: /contact/
 <div class="imAlsoOn">
 
 <strong>I'm also on</strong>
-
-  <div class="row">
-    <div class="col-sm-1">Twitter</div>
-    <div class="col-sm-10">
-        twitter.com/<a href="https://twitter.com/skorotkiewicz">skorotkiewicz</a>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-sm-1">Facebook</div>
-    <div class="col-sm-10">
-        facebook.com/<a href="https://facebook.com/skorotkiewicz">skorotkiewicz</a>
-    </div>
-  </div>
 
   <div class="row">
     <div class="col-sm-1">Github</div>
@@ -90,11 +83,25 @@ permalink: /contact/
   </div>
 
   <div class="row">
+    <div class="col-sm-1">Twitter</div>
+    <div class="col-sm-10">
+        twitter.com/<a href="https://twitter.com/skorotkiewicz">skorotkiewicz</a>
+    </div>
+  </div>
+
+  <!-- <div class="row">
+    <div class="col-sm-1">Facebook</div>
+    <div class="col-sm-10">
+        facebook.com/<a href="https://facebook.com/skorotkiewicz">skorotkiewicz</a>
+    </div>
+  </div>
+
+   <div class="row">
     <div class="col-sm-1">Coinbase</div>
     <div class="col-sm-10">
         coinbase.com/<a href="https://coinbase.com/modinfo">modinfo</a>
     </div>
-  </div>
+  </div> -->
 
   <div class="row">
     <div class="col-sm-1">Steam</div>
@@ -107,6 +114,20 @@ permalink: /contact/
     <div class="col-sm-1">HNews</div>
     <div class="col-sm-10">
         news.ycombinator.com/user?id=<a href="https://news.ycombinator.com/user?id=modinfo">modinfo</a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-1">Lobsters</div>
+    <div class="col-sm-10">
+        lobste.rs/u/<a href="https://lobste.rs/u/skorotkiewicz">skorotkiewicz</a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-1">DEV.to</div>
+    <div class="col-sm-10">
+        dev.to/<a href="https://dev.to/skorotkiewicz">skorotkiewicz</a>
     </div>
   </div>
 
