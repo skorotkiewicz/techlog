@@ -29,26 +29,12 @@ permalink: /contact/
     </div>
   </div>
 
-  <!-- <div class="row">
-    <div class="col-sm-1">Skype</div>
-    <div class="col-sm-10">
-        skorotkiewicz
-    </div>
-  </div> -->
-
   <div class="row">
     <div class="col-sm-1">IRC</div>
     <div class="col-sm-10">
         l__q @ freenode
     </div>
   </div>
-
-  <!-- <div class="row">
-    <div class="col-sm-1">Bitmessage</div>
-    <div class="col-sm-10">
-        BM-2D8rUS9FQVWZNKVfU4o2Ydoj6CiVDkJVZN
-    </div>
-  </div> -->
 
   <div class="row">
     <div class="col-sm-1">Keybase.io</div>
@@ -71,7 +57,7 @@ permalink: /contact/
   <div class="row">
     <div class="col-sm-1">Gitlab</div>
     <div class="col-sm-10">
-        gitlab.itunix.eu/<a href="https://gitlab.itunix.eu/skorotkiewicz">skorotkiewicz</a>
+        gitlab.com/<a href="https://gitlab.com/skorotkiewicz">skorotkiewicz</a>
     </div>
   </div>
 
@@ -88,20 +74,6 @@ permalink: /contact/
         twitter.com/<a href="https://twitter.com/skorotkiewicz">skorotkiewicz</a>
     </div>
   </div>
-
-  <!-- <div class="row">
-    <div class="col-sm-1">Facebook</div>
-    <div class="col-sm-10">
-        facebook.com/<a href="https://facebook.com/skorotkiewicz">skorotkiewicz</a>
-    </div>
-  </div>
-
-   <div class="row">
-    <div class="col-sm-1">Coinbase</div>
-    <div class="col-sm-10">
-        coinbase.com/<a href="https://coinbase.com/modinfo">modinfo</a>
-    </div>
-  </div> -->
 
   <div class="row">
     <div class="col-sm-1">Steam</div>
@@ -131,6 +103,33 @@ permalink: /contact/
     </div>
   </div>
 
+  <!-- <div class="row">
+    <div class="col-sm-1">Bitmessage</div>
+    <div class="col-sm-10">
+        BM-2D8rUS9FQVWZNKVfU4o2Ydoj6CiVDkJVZN
+    </div>
+  </div>
+
+   <div class="row">
+    <div class="col-sm-1">Skype</div>
+    <div class="col-sm-10">
+        skorotkiewicz
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-sm-1">Facebook</div>
+    <div class="col-sm-10">
+        facebook.com/<a href="https://facebook.com/skorotkiewicz">skorotkiewicz</a>
+    </div>
+  </div>
+
+   <div class="row">
+    <div class="col-sm-1">Coinbase</div>
+    <div class="col-sm-10">
+        coinbase.com/<a href="https://coinbase.com/modinfo">modinfo</a>
+    </div>
+  </div> -->
 </div>
 
 <h2>PGP Keys</h2>
@@ -138,15 +137,15 @@ permalink: /contact/
 <dt>Active keys</dt>
 <dd>
 <ul>
-<li><a href="http://keys.itunix.eu/pks/lookup?op=vindex&amp;fingerprint=on&amp;search=0x5BDC557B496BDB0D"><code>B498 E2E4 1090 2F8A EC10 8F4F 5BDC 557B 496B DB0D</code></a></li>
+<li><a href="https://pgp.mit.edu/pks/lookup?op=vindex&amp;fingerprint=on&amp;search=0x5BDC557B496BDB0D"><code>B498 E2E4 1090 2F8A EC10 8F4F 5BDC 557B 496B DB0D</code></a></li>
 </ul>
 </dd>
 <dt>Expired keys</dt>
 <dd>
 <ul>
-<li><a href="http://keys.itunix.eu/pks/lookup?op=get&amp;search=0x33D6DECB626DEAC0"><code>E556 4C67 88B0 5D6E 4DE1 2E2D 33D6 DECB 626D EAC0</code></a></li>
+<li><a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x33D6DECB626DEAC0"><code>E556 4C67 88B0 5D6E 4DE1 2E2D 33D6 DECB 626D EAC0</code></a></li>
 <li><a href="#" target="_blank" rel="noopener"><code>E9A4 04CD 846F 8178 E498 3F1D 82E7 8C69 AF39 F5C6</code></a></li>
-<li><a href="http://keys.itunix.eu/pks/lookup?op=get&amp;search=0xA3D5906151B82B1B" target="_blank" rel="noopener"><code>ED99 ABCD 8484 7CBC D759 A84F A3D5 9061 51B8 2B1B</code></a></li>
+<li><a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0xA3D5906151B82B1B" target="_blank" rel="noopener"><code>ED99 ABCD 8484 7CBC D759 A84F A3D5 9061 51B8 2B1B</code></a></li>
 </ul>
 </dd>
 </dl>
