@@ -37,6 +37,13 @@ permalink: /contact/
   </div>
 
   <div class="row">
+    <div class="col-sm-1">Keyoxide.org</div>
+    <div class="col-sm-10">
+        keyoxide.org/<a href="https://keyoxide.org/B498E2E410902F8AEC108F4F5BDC557B496BDB0D">B498E2E410902F8AEC108F4F5BDC557B496BDB0D</a>
+    </div>
+  </div>
+
+  <div class="row">
     <div class="col-sm-1">Keybase.io</div>
     <div class="col-sm-10">
         keybase.io/<a href="https://keybase.io/modinfo/">modinfo</a>
