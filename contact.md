@@ -25,7 +25,7 @@ permalink: /contact/
   <div class="row">
     <div class="col-sm-1">Phone</div>
     <div class="col-sm-10">
-        +49 (0)151 5587 3809
+        +49 (0)159 0268 1236
     </div>
   </div>
 

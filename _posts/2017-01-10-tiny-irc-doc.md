@@ -21,11 +21,11 @@ categories: posts
 
 `/msg chanserv flags #channel yournick +oO`
  
-5. Set topic lock:
+5. Set topic lock ON or OFF:
 
 `/msg ChanServ SET #channel TOPICLOCK {ON | OFF}`
  
  
-If you’ve only set the little o flag, your users must tell chanserv to temporarily turn them into operators when they need it.
+If you have only set the lowercase letter +o, you must type the command below when you re-join the channel to become an operator again:
 
 `/msg chanserv op #channel`
