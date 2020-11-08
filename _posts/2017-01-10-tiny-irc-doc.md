@@ -5,6 +5,8 @@ date:   2017-01-10 18:10:58 +0200
 categories: posts
 ---
 
+<style>.post-content > ul {list-style: none;}</style>
+
 # NickServ
 
 * Register nickname on server:  
@@ -14,7 +16,7 @@ categories: posts
 * Login   
 `/msg NickServ IDENTIFY YourNick YourPassword`
 
-* Logging In 
+* Logging In  
 `/connect chat.freenode.net 6697 YourNick:YourPassword`
 
 # ChanServ
