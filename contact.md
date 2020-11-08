@@ -18,7 +18,7 @@ permalink: /contact/
   <div class="row">
     <div class="col-sm-1">XMPP</div>
     <div class="col-sm-10">
-        skorotkiewicz@snopyta.org
+        skorotkiewicz@404.city (<s>snopyta.org</s>)
     </div>
   </div>
 
