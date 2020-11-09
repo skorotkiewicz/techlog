@@ -42,6 +42,9 @@ categories: posts
 
 # Quick notes (weechat)
 
+* For `/cs`, `/ns` commands your need set `irc.network.send_unknown_commands` to `on` 
+
+
 Add server:  
 `/server add freenode chat.freenode.net`   
 - then edit `~/.weechat/irc.conf` only if weechat is not running!
@@ -54,6 +57,28 @@ Send PM:
 
 Quick close chat window, add key mapping (Alt+!):  
 `/key bind meta-! /buffer close`
+
+
+# User modes
+
+```
+/mode #channel +q [user]
+```
+```
+/msg ChanServ OWNER #channel [user]
+```
+
+- `+q`
+  - User is owner of the current channel (prefix ~ on UnrealIRCd, usually @ elsewhere)
+- `+a`
+  - User is an admin (SOP) on the current channel (prefix & on UnrealIRCd, usually @ elsewhere).
+- `+o`
+  - User is an operator (AOP) on the current channel (prefix @).
+- `+h`
+  - User is a half-op on the current channel (prefix %).
+- `+v`
+  - User has voice on the current channel (prefix +).
+
 
 
 # Weechat BNC / Add ZNC Server
@@ -74,3 +99,7 @@ For username "YourName" and server "freenode" with password: "YourPassword"
 /connect BNC
 /save
 ```
+
+## More info:
+
+# > Rly good: [IRC cheat sheet](https://gist.github.com/skorotkiewicz/ea75a0d144154bf583ae439e3462591d)
